@@ -1,0 +1,4 @@
+# sharp ships prebuilt binaries, so its install script is not needed. Declaring
+# that here keeps `pnpm install` from stopping on ERR_PNPM_IGNORED_BUILDS.
+allowBuilds:
+  sharp: false
