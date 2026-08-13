@@ -1,0 +1,10 @@
+/* The design system supplies the theme tokens the editor's classes read; the
+   editor stylesheet supplies the classes themselves.
+
+   Both are prebuilt, and they have to be: Tailwind does not scan node_modules,
+   so pointing `@source` at an installed package silently generates nothing and
+   the editor renders unstyled. */
+@import '@helix-hq/design-system/globals.css';
+@import '@helix-hq/pdf-report/editor.css';
+
+@source './**/*.{ts,tsx}';
