@@ -12,14 +12,13 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@helix-hq/design-system": "^0.1.0",
-    "@helix-hq/pdf-report": "^0.1.0",
+    "@helix-hq/design-system": "^0.2.0",
+    "@helix-hq/pdf-report": "^0.1.1",
     "lucide-react": "^1.23.0",
     "next": "16.2.10",
-    "nuqs": "^2.9.0",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "react-hook-form": "7.72.0"
+    "react-resizable-panels": "^4.12.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.2",

@@ -12,6 +12,12 @@ It shows the two ways an app uses the package:
   template to a buffer and returns a PDF. No editor, no client. This is the shape
   a scheduled job or an email attachment would use.
 
+## What you install
+
+Rendering needs `react` and `react-dom`. The editor additionally needs
+`@helix-hq/design-system` and `react-resizable-panels` — both optional peers of
+the package, so an app that only renders PDFs installs neither.
+
 ## Run it
 
 ```sh
